@@ -1,0 +1,44 @@
+﻿<!-- START BREADCRUMB -->
+<ul class="breadcrumb">
+    <li><a href="~/Test/Index">กลับหน้าหลัก</a></li>
+    <li class="active">ใบเสนอขอซื้อ</li>
+</ul>
+<!-- END BREADCRUMB -->
+<!-- PAGE CONTENT WRAPPER -->
+<div class="page-content-wrap" ng-controller="PurchaseRequestController">
+
+    <div class="row">
+        <div class="col-md-12">
+
+            <form class="form-horizontal">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><strong>Purchase Request</strong></h3>
+                        <div class="pull-right">
+                            <button class="btn btn-default"><i class="fa fa-search"></i> ค้นหาเอกสาร</button>
+                        </div>
+                        <div class="pull-right">
+                            <button class="btn btn-default"><i class="fa fa-clipboard"></i> สร้างเอกสารใหม่จากเทมเพลท</button>&nbsp;
+                        </div>
+                        <div class="pull-right">
+                            <button class="btn btn-default"><i class="fa fa-file-o"></i> สร้างเอกสารใหม่</button>&nbsp;
+                        </div>
+                    </div>
+                    <div class="panel-body">
+
+                        <div id="form-container">
+                            <div id="form" dx-form="formOptions"></div>
+                        </div><br />
+
+                        <div id="gridContainer" dx-data-grid="gridOptionsRequest"></div>
+
+                    </div>
+
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+</div>
+<!-- END PAGE CONTENT WRAPPER --> 
