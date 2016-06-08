@@ -2034,6 +2034,23 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="scripts\jquery-1.11.3.min.map" />
+    <Content Include="Views\Test\PurchaseOrder.cshtml" />
+    <Content Include="Views\Test\ReceiveOrder.cshtml" />
+    <Content Include="Views\Test\DirectOrder.cshtml" />
+    <Content Include="Views\Test\TransferStockDocument.cshtml" />
+    <Content Include="Views\Test\ReceiveStockDocument.cshtml" />
+    <Content Include="Views\Test\TransferStockCost.cshtml" />
+    <Content Include="Views\Test\ReceiveStockCost.cshtml" />
+    <Content Include="Views\Test\AdjustStock.cshtml" />
+    <Content Include="Views\Test\CountStockSetting.cshtml" />
+    <Content Include="Views\Test\CountStockDaily.cshtml" />
+    <Content Include="Views\Test\CountStockWeekly.cshtml" />
+    <Content Include="Views\Test\CountStockMonthly.cshtml" />
+    <Content Include="Views\Test\VendorsManagement.cshtml" />
+    <Content Include="Views\Test\ReportStockCard.cshtml" />
+    <Content Include="Views\Test\ReportInOutStock.cshtml" />
+    <Content Include="Views\Test\DocumentTemplate.cshtml" />
+    <Content Include="Views\Test\BillOfSale.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

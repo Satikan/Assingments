@@ -6,3 +6,24 @@
     float: right;
     margin-top: 20px;
 }
+
+.list-container {
+    min-height: 440px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0; 
+    bottom: 0;
+}
+
+.options {
+    padding-top: 30px;
+}
+
+.options .dx-checkbox {
+    margin-right: 15px;
+}
+
+#accordion h1 {
+    font-size:20px;
+}

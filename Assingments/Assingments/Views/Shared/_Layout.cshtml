@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>@ViewBag.Title pRoMiSe</title>
     <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
     <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <script src="~/Scripts/modernizr-2.6.2.js"></script>
@@ -47,33 +47,33 @@
                     <a href="#"><span class="fa fa-file-text-o"></span> <span class="xn-text">กลุ่มเอกสาร</span></a>
                     <ul>
                         <li><a href="~/Test/PurchaseRequest"><span class="fa fa-file-text-o"></span> ใบเสนอขอซื้อ</a></li>
-                        <li><a href=""><span class="fa fa-file-text-o"></span> เอกสารสั่งซื้อ</a></li>
-                        <li><a href=""><span class="fa fa-file-text-o"></span> เอกสารรับจากสั่งซื้อ</a></li>
-                        <li><a href=""><span class="fa fa-file-text"></span> เอกสารรับตรง</a></li>
-                        <li><a href=""><span class="fa fa-copy"></span> เอกสารโอนย้ายสินค้า</a></li>
-                        <li><a href=""><span class="fa fa-file-text-o"></span> ใบรับสินค้าจากโอนถ่าย</a></li>
-                        <li><a href=""><span class="fa fa-copy"></span> เอกสารเบิกจ่ายสินค้าที่มีราคา</a></li>
-                        <li><a href=""><span class="fa fa-file-text-o"></span> เอกสารรับสินค้าจากการโอนที่มีราคา</a></li>
-                        <li><a href=""><span class="fa fa-file-o"></span> ใบขอสินค้า</a></li>
-                        <li><a href=""><span class="fa fa-paste"></span> เอกสารเทมเพลท</a></li>
+                        <li><a href="~/Test/PurchaseOrder"><span class="fa fa-file-text-o"></span> เอกสารสั่งซื้อ</a></li>
+                        <li><a href="~/Test/ReceiveOrder"><span class="fa fa-file-text-o"></span> เอกสารรับจากสั่งซื้อ</a></li>
+                        <li><a href="~/Test/DirectOrder"><span class="fa fa-file-text"></span> เอกสารรับตรง</a></li>
+                        <li><a href="~/Test/TransferStockDocument"><span class="fa fa-copy"></span> เอกสารโอนย้ายสินค้า</a></li>
+                        <li><a href="~/Test/ReceiveStockDocument"><span class="fa fa-file-text-o"></span> ใบรับสินค้าจากโอนถ่าย</a></li>
+                        <li><a href="~/Test/TransferStockCost"><span class="fa fa-copy"></span> เอกสารเบิกจ่ายสินค้าที่มีราคา</a></li>
+                        <li><a href="~/Test/ReceiveStockCost"><span class="fa fa-file-text-o"></span> เอกสารรับสินค้าจากการโอนที่มีราคา</a></li>
+                        <li><a href="~/Test/BillOfSale"><span class="fa fa-file-o"></span> ใบขอสินค้า</a></li>
+                        <li><a href="~/Test/DocumentTemplate"><span class="fa fa-paste"></span> เอกสารเทมเพลท</a></li>
                     </ul>
                 </li>
                 <li class="xn-openable">
                     <a href="#"><span class="fa fa-cogs"></span> <span class="xn-text">กลุ่มสต๊อกสินค้า</span></a>
                     <ul>
-                        <li><a href=""><span class="fa fa-gears"></span> ตั้งค่าการนับสต๊อก</a></li>
-                        <li><a href=""><span class="fa fa-calendar"></span> นับสต๊อกรายวัน</a></li>
-                        <li><a href=""><span class="fa fa-calendar"></span> นับสต๊อกรายสัปดาห์</a></li>
-                        <li><a href=""><span class="fa fa-calendar"></span> นับสต๊อกรายเดือน</a></li>
-                        <li><a href=""><span class="fa fa-copy"></span> ปรับเพิ่ม-ปรับลด สต๊อก</a></li>
-                        <li><a href=""><span class="glyphicon glyphicon-book"></span> สต๊อกการ์ด</a></li>
-                        <li><a href=""><span class="glyphicon glyphicon-list-alt"></span> รายงานสินค้าเข้าออก</a></li>
+                        <li><a href="~/Test/CountStockSetting"><span class="fa fa-gears"></span> ตั้งค่าการนับสต๊อก</a></li>
+                        <li><a href="~/Test/CountStockDaily"><span class="fa fa-calendar"></span> นับสต๊อกรายวัน</a></li>
+                        <li><a href="~/Test/CountStockWeekly"><span class="fa fa-calendar"></span> นับสต๊อกรายสัปดาห์</a></li>
+                        <li><a href="~/Test/CountStockMonthly"><span class="fa fa-calendar"></span> นับสต๊อกรายเดือน</a></li>
+                        <li><a href="~/Test/AdjustStock"><span class="fa fa-copy"></span> ปรับเพิ่ม-ปรับลด สต๊อก</a></li>
+                        <li><a href="~/Test/ReportStockCard"><span class="glyphicon glyphicon-book"></span> สต๊อกการ์ด</a></li>
+                        <li><a href="~/Test/ReportInOutStock"><span class="glyphicon glyphicon-list-alt"></span> รายงานสินค้าเข้าออก</a></li>
                     </ul>
                 </li>
                 <li class="xn-openable">
                     <a href="#"><span class="fa fa-male"></span> <span class="xn-text">กลุ่มทั่วไป</span></a>
                     <ul>
-                        <li><a href="form-elements.html"><span class="fa fa-user"></span> ผู้จัดจำหน่าย</a></li>
+                        <li><a href="~/Test/VendorsManagement"><span class="fa fa-user"></span> ผู้จัดจำหน่าย</a></li>
                     </ul>
                 </li>
 

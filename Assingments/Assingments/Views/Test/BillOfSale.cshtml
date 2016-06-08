@@ -1,20 +1,23 @@
 ﻿<!-- START BREADCRUMB -->
 <ul class="breadcrumb">
     <li><a href="~/Test/Index">กลับหน้าหลัก</a></li>
-    <li class="active">ใบเสนอขอซื้อ</li>
+    <li class="active">ใบขอสินค้า</li>
 </ul>
 <!-- END BREADCRUMB -->
 <!-- PAGE CONTENT WRAPPER -->
-<div class="page-content-wrap" ng-controller="PurchaseRequestController">
+<div class="page-content-wrap" ng-controller="BillOfSaleController">
 
     <div class="row">
         <div class="col-md-12">
             <form class="form-horizontal">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h3 class="panel-title"><strong>Purchase Request</strong></h3>
+                        <h3 class="panel-title"><strong>เอกสารขอสินค้า</strong></h3>
                         <div class="pull-right">
-                            <button class="btn btn-default"><i class="fa fa-search"></i> ค้นหาเอกสาร</button>
+                            <button class="btn btn-default"><i class="fa fa-refresh"></i> Click Reload</button>
+                        </div>
+                        <div class="pull-right">
+                            <button class="btn btn-default"><i class="fa fa-search"></i> ค้นหาเอกสาร</button>&nbsp;
                         </div>
                         <div class="pull-right">
                             <button class="btn btn-default"><i class="fa fa-clipboard"></i> สร้างเอกสารใหม่จากเทมเพลท</button>&nbsp;
@@ -27,16 +30,16 @@
                         <div class="panel-heading " style="height: 40px;padding-top: 5px;">
 
                             <h4 style="font-size:16px;" class="panel-title">
-                                <a href="#accTwoColOne" class="panel-collapse"><span class="fa fa-angle-down"> สถานะเอกสาร </span> <span class="fa fa-angle-down"> เลขที่เอกสาร </span> </a>
+                                <a href="#accTwoColOne" class="panel-collapse"><span class="fa fa-angle-down"> สถานะเอกสาร </span> <span class="fa fa-angle-down"> เลขที่เอกสาร </span></a>
                             </h4>
                         </div>
                         <div class="panel-body panel-body-open" id="accTwoColOne">
                             <div id="form-container">
-                                <div id="form" dx-form="formOptionsRequest"></div>
+                                <div id="form" dx-form="formOptionsBillOfSale"></div>
                             </div>
                         </div>
                         <div class="panel-body panel-body-open" id="accTwoColTwo">
-                            <div id="gridContainer" dx-data-grid="gridOptionsRequest"></div>
+                            <div id="gridContainer" dx-data-grid="gridOptionsBillOfSale"></div>
                         </div>
                     </div>
                 </div>
